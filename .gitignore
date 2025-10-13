@@ -1,0 +1,35 @@
+# Logs e temporários
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Arquivos de configuração sensíveis
+.env
+config.php
+db.php
+
+# Arquivos de banco de dados exportados
+*.sql
+*.sqlite
+*.db
+
+# Diretórios comuns em projetos PHP
+/vendor/          # Composer
+/public/uploads/  # Uploads de usuários
+/storage/
+cache/
+sessions/
+tmp/
+
+# Dependências Node (caso use npm/yarn)
+node_modules/
+
+# Arquivos de IDE/editors
+.vscode/
+.idea/
+*.swp
+
+# Arquivos do sistema
+.DS_Store    # macOS
+Thumbs.db    # Windows
